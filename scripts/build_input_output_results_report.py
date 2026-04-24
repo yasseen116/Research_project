@@ -11,6 +11,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def display_path(path: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(ROOT))
+    except ValueError:
+        return str(path.resolve())
+
+
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -23,6 +30,11 @@ def parse_args() -> argparse.Namespace:
         "--input-dir",
         default="synthetic/pilot_noisy",
         help="Directory containing the input dialogue samples.",
+    )
+    parser.add_argument(
+        "--combined-dir",
+        default=None,
+        help="Directory containing combined predictions with frames, slots, and requirements.",
     )
     parser.add_argument(
         "--requirements-dir",
@@ -69,6 +81,53 @@ def build_markdown(samples: list[dict], system_label: str) -> str:
         for turn in sample["dialogue"]:
             lines.append(f"- `{turn['turn_id']}` `{turn['role']}`: {turn['text']}")
         lines.append("")
+        if sample.get("frames") is not None:
+            lines.append("### Output Frames")
+            lines.append("")
+            if sample["frames"]:
+                for frame in sample["frames"]:
+                    lines.append(
+                        "- "
+                        + f"`{frame['frame_id']}` `{frame['kind']}` "
+                        + f"actor={frame['actor']!r} action={frame['action']!r} "
+                        + f"object={frame['object']!r} constraint={frame['constraint']!r} "
+                        + f"turns={frame['evidence_turns']}"
+                    )
+            else:
+                lines.append("- none")
+            lines.append("")
+        if sample.get("slots") is not None:
+            lines.append("### Derived Slots")
+            lines.append("")
+            slots = sample["slots"]
+            lines.append(f"- System type: `{slots['system_type']['value']}`")
+            lines.append(
+                "- User roles: "
+                + (", ".join(item["value"] for item in slots["user_roles"]) if slots["user_roles"] else "none")
+            )
+            lines.append(
+                "- Functional capabilities: "
+                + (str(len(slots["functional_capabilities"])) if slots["functional_capabilities"] else "0")
+            )
+            for capability in slots["functional_capabilities"]:
+                lines.append(f"- {capability['actor']} -> {capability['action']}")
+            lines.append(
+                "- Authentication: "
+                + (
+                    ", ".join(slots["authentication"]["methods"])
+                    if slots["authentication"]["required"]
+                    else "not required"
+                )
+            )
+            lines.append(
+                "- Performance constraints: "
+                + ("; ".join(item["text"] for item in slots["performance_constraints"]) if slots["performance_constraints"] else "none")
+            )
+            lines.append(
+                "- Security constraints: "
+                + ("; ".join(item["text"] for item in slots["security_constraints"]) if slots["security_constraints"] else "none")
+            )
+            lines.append("")
         lines.append("### Output Functional Requirements")
         lines.append("")
         if sample["requirements"]["functional"]:
@@ -93,7 +152,8 @@ def main() -> int:
     args = parse_args()
 
     input_dir = ROOT / args.input_dir
-    requirements_dir = ROOT / args.requirements_dir
+    combined_dir = ROOT / args.combined_dir if args.combined_dir else None
+    requirements_dir = ROOT / args.requirements_dir if args.requirements_dir else None
     output_md = ROOT / args.output_md
     output_json = ROOT / args.output_json
 
@@ -104,11 +164,25 @@ def main() -> int:
             continue
 
         sample_id = input_payload["sample_id"]
-        requirements_path = requirements_dir / f"{sample_id}.json"
-        if not requirements_path.exists():
+        combined_payload = None
+        requirements_payload = None
+        if combined_dir is not None:
+            combined_path = combined_dir / f"{sample_id}.json"
+            if combined_path.exists():
+                combined_payload = load_json(combined_path)
+        if requirements_dir is not None:
+            requirements_path = requirements_dir / f"{sample_id}.json"
+            if requirements_path.exists():
+                requirements_payload = load_json(requirements_path)
+
+        if combined_payload is None and requirements_payload is None:
             continue
 
-        requirements_payload = load_json(requirements_path)
+        requirements = (
+            combined_payload["requirements"]
+            if combined_payload is not None and "requirements" in combined_payload
+            else requirements_payload["requirements"]
+        )
         sample_record = {
             "sample_id": sample_id,
             "system_label": args.system_label,
@@ -117,7 +191,9 @@ def main() -> int:
             "source_dataset": input_payload["source"]["dataset"],
             "source_document_id": input_payload["source"]["document_id"],
             "dialogue": input_payload["dialogue"],
-            "requirements": requirements_payload["requirements"],
+            "frames": combined_payload.get("frames") if combined_payload is not None else None,
+            "slots": combined_payload.get("slots") if combined_payload is not None else None,
+            "requirements": requirements,
         }
         samples.append(sample_record)
 
@@ -130,7 +206,7 @@ def main() -> int:
     output_md.write_text(build_markdown(samples, args.system_label), encoding="utf-8")
     output_json.write_text(json.dumps(output_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    print(f"Wrote {output_md.relative_to(ROOT)} and {output_json.relative_to(ROOT)}")
+    print(f"Wrote {display_path(output_md)} and {display_path(output_json)}")
     return 0
 
 

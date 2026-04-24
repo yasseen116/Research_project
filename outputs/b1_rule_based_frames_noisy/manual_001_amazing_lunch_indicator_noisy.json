@@ -1,0 +1,84 @@
+{
+  "sample_id": "manual_001_amazing_lunch_indicator_noisy",
+  "method": "b1_rule_based_dialogue_to_slots_v1__derived_frames_v1",
+  "frames": [
+    {
+      "frame_id": "F1",
+      "kind": "system_context",
+      "actor": null,
+      "action": "system_type",
+      "object": "basically a phone app for finding food spots near me and checking what each place offers.",
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        2
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F2",
+      "kind": "user_role",
+      "actor": "regular app users",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F3",
+      "kind": "user_role",
+      "actor": "restaurant people using the portal",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F4",
+      "kind": "user_role",
+      "actor": "whoever manages the whole thing",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F5",
+      "kind": "functional_capability",
+      "actor": "users",
+      "action": "view restaurant results in map and list views",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F6",
+      "kind": "authentication",
+      "actor": null,
+      "action": "authenticate",
+      "object": "web portal username/password login",
+      "constraint": "required",
+      "channel": null,
+      "evidence_turns": [
+        8
+      ],
+      "status": "confirmed"
+    }
+  ]
+}

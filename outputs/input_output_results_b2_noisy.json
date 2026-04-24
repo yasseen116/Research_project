@@ -71,6 +71,8 @@
           "text": "Login traffic needs protecting, and after three bad tries the portal account should cool off for about thirty minutes."
         }
       ],
+      "frames": null,
+      "slots": null,
       "requirements": {
         "functional": [
           {
@@ -228,6 +230,8 @@
           "text": "The wireless side needs encryption, and a server should not be signed into multiple tablets at once."
         }
       ],
+      "frames": null,
+      "slots": null,
       "requirements": {
         "functional": [
           {
@@ -394,6 +398,8 @@
           "text": "Everything should stay encrypted, the vault must not open without the needed master password or key file, and there should be no recovery backdoor."
         }
       ],
+      "frames": null,
+      "slots": null,
       "requirements": {
         "functional": [
           {

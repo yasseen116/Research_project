@@ -1,5 +1,7 @@
 {
   "clean": {
+    "frame_overall_f1": 1.0,
+    "frame_consistency": 1.0,
     "slot_overall_f1": 1.0,
     "slot_authentication_methods_f1": 1.0,
     "slot_functional_capabilities_f1": 1.0,
@@ -10,6 +12,8 @@
     "source_slot_coverage": 1.0
   },
   "noisy": {
+    "frame_overall_f1": 0.23989898989898992,
+    "frame_consistency": 1.0,
     "slot_overall_f1": 0.30128205128205127,
     "slot_authentication_methods_f1": 0.8222222222222223,
     "slot_functional_capabilities_f1": 0.09523809523809523,
@@ -20,6 +24,8 @@
     "source_slot_coverage": 0.26430976430976433
   },
   "delta_noisy_minus_clean": {
+    "frame_overall_f1": -0.76010101010101,
+    "frame_consistency": 0.0,
     "slot_overall_f1": -0.6987179487179487,
     "slot_authentication_methods_f1": -0.1777777777777777,
     "slot_functional_capabilities_f1": -0.9047619047619048,

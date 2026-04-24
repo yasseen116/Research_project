@@ -1,0 +1,214 @@
+{
+  "sample_id": "manual_001_amazing_lunch_indicator",
+  "method": "b2_keyword_normalized_dialogue_to_slots_v1__derived_frames_v1",
+  "frames": [
+    {
+      "frame_id": "F1",
+      "kind": "system_context",
+      "actor": null,
+      "action": "system_type",
+      "object": "restaurant discovery mobile application",
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        2
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F2",
+      "kind": "user_role",
+      "actor": "users",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F3",
+      "kind": "user_role",
+      "actor": "restaurant owners",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F4",
+      "kind": "user_role",
+      "actor": "administrators",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F5",
+      "kind": "functional_capability",
+      "actor": "users",
+      "action": "search for restaurants using multiple search options",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F6",
+      "kind": "functional_capability",
+      "actor": "users",
+      "action": "view restaurant results in map and list views",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F7",
+      "kind": "functional_capability",
+      "actor": "users",
+      "action": "open detailed restaurant information pages",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F8",
+      "kind": "functional_capability",
+      "actor": "users",
+      "action": "navigate to a selected restaurant using GPS",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F9",
+      "kind": "functional_capability",
+      "actor": "restaurant owners",
+      "action": "manage restaurant information through the web portal",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F10",
+      "kind": "functional_capability",
+      "actor": "administrators",
+      "action": "verify restaurant owners",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F11",
+      "kind": "authentication",
+      "actor": null,
+      "action": "authenticate",
+      "object": "mobile app username/password login",
+      "constraint": "required",
+      "channel": null,
+      "evidence_turns": [
+        8
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F12",
+      "kind": "authentication",
+      "actor": null,
+      "action": "authenticate",
+      "object": "web portal username/password login",
+      "constraint": "required",
+      "channel": null,
+      "evidence_turns": [
+        8
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F13",
+      "kind": "performance",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "return search results within 2 seconds",
+      "channel": null,
+      "evidence_turns": [
+        10
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F14",
+      "kind": "performance",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "inform the user if internet or GPS connectivity is lost",
+      "channel": null,
+      "evidence_turns": [
+        10
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F15",
+      "kind": "security",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "encrypt log-in communication messages",
+      "channel": null,
+      "evidence_turns": [
+        12
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F16",
+      "kind": "security",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "disable restaurant owner and administrator log-in for 30 minutes after three failed attempts",
+      "channel": null,
+      "evidence_turns": [
+        12
+      ],
+      "status": "confirmed"
+    }
+  ]
+}

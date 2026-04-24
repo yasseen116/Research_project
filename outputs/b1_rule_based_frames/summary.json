@@ -1,0 +1,17 @@
+[
+  {
+    "sample_id": "manual_001_amazing_lunch_indicator",
+    "path": "outputs/b1_rule_based_frames/manual_001_amazing_lunch_indicator.json",
+    "frame_count": 16
+  },
+  {
+    "sample_id": "manual_002_restaurant_menu_ordering_system",
+    "path": "outputs/b1_rule_based_frames/manual_002_restaurant_menu_ordering_system.json",
+    "frame_count": 17
+  },
+  {
+    "sample_id": "manual_003_keepass_password_safe",
+    "path": "outputs/b1_rule_based_frames/manual_003_keepass_password_safe.json",
+    "frame_count": 14
+  }
+]

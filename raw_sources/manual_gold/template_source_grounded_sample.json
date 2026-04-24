@@ -78,6 +78,86 @@
       "text": "replace_me"
     }
   ],
+  "frames": [
+    {
+      "frame_id": "F1",
+      "kind": "system_context",
+      "actor": null,
+      "action": "system_type",
+      "object": "replace_me",
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        2
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F2",
+      "kind": "user_role",
+      "actor": "replace_me",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F3",
+      "kind": "functional_capability",
+      "actor": "replace_me",
+      "action": "replace_me",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F4",
+      "kind": "authentication",
+      "actor": null,
+      "action": "authenticate",
+      "object": "replace_me",
+      "constraint": "required",
+      "channel": null,
+      "evidence_turns": [
+        8
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F5",
+      "kind": "performance",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "replace_me",
+      "channel": null,
+      "evidence_turns": [
+        10
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F6",
+      "kind": "security",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "replace_me",
+      "channel": null,
+      "evidence_turns": [
+        12
+      ],
+      "status": "confirmed"
+    }
+  ],
   "slots": {
     "system_type": {
       "value": "replace_me",

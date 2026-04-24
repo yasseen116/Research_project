@@ -1,0 +1,227 @@
+{
+  "sample_id": "manual_002_restaurant_menu_ordering_system_noisy",
+  "method": "b2_keyword_normalized_dialogue_to_slots_v1__derived_frames_v1",
+  "frames": [
+    {
+      "frame_id": "F1",
+      "kind": "system_context",
+      "actor": null,
+      "action": "system_type",
+      "object": "restaurant menu and ordering system",
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        2
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F2",
+      "kind": "user_role",
+      "actor": "customers",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F3",
+      "kind": "user_role",
+      "actor": "waiters",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F4",
+      "kind": "user_role",
+      "actor": "chefs",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F5",
+      "kind": "user_role",
+      "actor": "supervisors",
+      "action": "user_role",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        4
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F6",
+      "kind": "functional_capability",
+      "actor": "customers",
+      "action": "place orders through an engaged menu",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F7",
+      "kind": "functional_capability",
+      "actor": "customers",
+      "action": "call for waiter assistance",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F8",
+      "kind": "functional_capability",
+      "actor": "waiters",
+      "action": "process cash and bankcard payments",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F9",
+      "kind": "functional_capability",
+      "actor": "chefs",
+      "action": "mark order items as ready to be served",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F10",
+      "kind": "functional_capability",
+      "actor": "supervisors",
+      "action": "issue refunds",
+      "object": null,
+      "constraint": null,
+      "channel": null,
+      "evidence_turns": [
+        6
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F11",
+      "kind": "authentication",
+      "actor": null,
+      "action": "authenticate",
+      "object": "tablet username/password login",
+      "constraint": "required",
+      "channel": null,
+      "evidence_turns": [
+        8
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F12",
+      "kind": "performance",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "support at least 200 concurrent device connections",
+      "channel": null,
+      "evidence_turns": [
+        10
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F13",
+      "kind": "performance",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "preserve all active meals and orders without losing them",
+      "channel": null,
+      "evidence_turns": [
+        10
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F14",
+      "kind": "performance",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "preserve all active customer payments without losing them",
+      "channel": null,
+      "evidence_turns": [
+        10
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F15",
+      "kind": "security",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "encrypt wireless communication using SSLv3 and WPA2-PSK",
+      "channel": null,
+      "evidence_turns": [
+        12
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F16",
+      "kind": "security",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "limit each waiter to one logged-in tablet at a time",
+      "channel": null,
+      "evidence_turns": [
+        12
+      ],
+      "status": "confirmed"
+    },
+    {
+      "frame_id": "F17",
+      "kind": "security",
+      "actor": null,
+      "action": null,
+      "object": null,
+      "constraint": "not require customers to log in on surface computers",
+      "channel": null,
+      "evidence_turns": [
+        8
+      ],
+      "status": "confirmed"
+    }
+  ]
+}

@@ -22,11 +22,11 @@ def main() -> int:
     run(["python3", "scripts/evaluate_requirement_predictions.py"])
     run(["python3", "scripts/generate_pilot_noisy_variants.py"])
 
-    for name, input_dir, pred_slots_dir, pred_req_dir in [
-        ("b1_clean", "raw_sources/manual_gold", "outputs/b1_rule_based_slots", "outputs/b1_rule_based_requirements"),
-        ("b1_noisy", "synthetic/pilot_noisy", "outputs/b1_rule_based_slots_noisy", "outputs/b1_rule_based_requirements_noisy"),
-        ("b2_clean", "raw_sources/manual_gold", "outputs/b2_keyword_normalized_slots", "outputs/b2_keyword_normalized_requirements"),
-        ("b2_noisy", "synthetic/pilot_noisy", "outputs/b2_keyword_normalized_slots_noisy", "outputs/b2_keyword_normalized_requirements_noisy"),
+    for name, input_dir, pred_slots_dir, pred_frames_dir, pred_req_dir in [
+        ("b1_clean", "raw_sources/manual_gold", "outputs/b1_rule_based_slots", "outputs/b1_rule_based_frames", "outputs/b1_rule_based_requirements"),
+        ("b1_noisy", "synthetic/pilot_noisy", "outputs/b1_rule_based_slots_noisy", "outputs/b1_rule_based_frames_noisy", "outputs/b1_rule_based_requirements_noisy"),
+        ("b2_clean", "raw_sources/manual_gold", "outputs/b2_keyword_normalized_slots", "outputs/b2_keyword_normalized_frames", "outputs/b2_keyword_normalized_requirements"),
+        ("b2_noisy", "synthetic/pilot_noisy", "outputs/b2_keyword_normalized_slots_noisy", "outputs/b2_keyword_normalized_frames_noisy", "outputs/b2_keyword_normalized_requirements_noisy"),
     ]:
         generator = (
             "scripts/generate_b1_rule_based_slots.py"
@@ -34,6 +34,28 @@ def main() -> int:
             else "scripts/generate_b2_keyword_normalized_slots.py"
         )
         run(["python3", generator, "--input-dir", input_dir, "--output-dir", pred_slots_dir])
+        run(
+            [
+                "python3",
+                "scripts/generate_frames_from_slot_predictions.py",
+                "--input-dir",
+                pred_slots_dir,
+                "--output-dir",
+                pred_frames_dir,
+            ]
+        )
+        run(
+            [
+                "python3",
+                "scripts/evaluate_frame_predictions.py",
+                "--gold-dir",
+                input_dir,
+                "--pred-dir",
+                pred_frames_dir,
+                "--output",
+                f"{pred_frames_dir}/evaluation.json",
+            ]
+        )
         run(
             [
                 "python3",

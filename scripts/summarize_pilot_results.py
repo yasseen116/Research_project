@@ -8,6 +8,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+FRAME_CLEAN = ROOT / "outputs" / "b1_rule_based_frames" / "evaluation.json"
+FRAME_NOISY = ROOT / "outputs" / "b1_rule_based_frames_noisy" / "evaluation.json"
 SLOT_CLEAN = ROOT / "outputs" / "b1_rule_based_slots" / "evaluation.json"
 SLOT_NOISY = ROOT / "outputs" / "b1_rule_based_slots_noisy" / "evaluation.json"
 REQ_CLEAN = ROOT / "outputs" / "b1_rule_based_requirements" / "evaluation.json"
@@ -20,8 +22,10 @@ def load(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
-def extract_summary(slot_eval: dict, req_eval: dict) -> dict:
+def extract_summary(frame_eval: dict, slot_eval: dict, req_eval: dict) -> dict:
     return {
+        "frame_overall_f1": frame_eval["aggregate"]["overall_f1_macro"],
+        "frame_consistency": frame_eval["aggregate"]["dialogue_frame_consistency_macro"],
         "slot_overall_f1": slot_eval["aggregate"]["overall_f1_macro"],
         "slot_authentication_methods_f1": slot_eval["aggregate"]["per_slot"]["authentication_methods"]["f1_macro"],
         "slot_functional_capabilities_f1": slot_eval["aggregate"]["per_slot"]["functional_capabilities"]["f1_macro"],
@@ -34,13 +38,15 @@ def extract_summary(slot_eval: dict, req_eval: dict) -> dict:
 
 
 def main() -> int:
+    frame_clean = load(FRAME_CLEAN)
+    frame_noisy = load(FRAME_NOISY)
     slot_clean = load(SLOT_CLEAN)
     slot_noisy = load(SLOT_NOISY)
     req_clean = load(REQ_CLEAN)
     req_noisy = load(REQ_NOISY)
 
-    clean = extract_summary(slot_clean, req_clean)
-    noisy = extract_summary(slot_noisy, req_noisy)
+    clean = extract_summary(frame_clean, slot_clean, req_clean)
+    noisy = extract_summary(frame_noisy, slot_noisy, req_noisy)
     deltas = {key: noisy[key] - clean[key] for key in clean}
 
     payload = {
@@ -57,6 +63,8 @@ def main() -> int:
         "| --- | ---: | ---: | ---: |",
     ]
     label_map = {
+        "frame_overall_f1": "Frame Overall F1",
+        "frame_consistency": "Dialogue-Frame Consistency",
         "slot_overall_f1": "Slot Overall F1",
         "slot_authentication_methods_f1": "Slot Auth Methods F1",
         "slot_functional_capabilities_f1": "Slot Functional Capabilities F1",
@@ -78,8 +86,8 @@ def main() -> int:
             "## Interpretation",
             "",
             "- The clean pilot is saturated by the current rule baseline because the dataset is tiny and the phrasing remains close to the schema.",
-            "- The noisy pilot exposes the real weakness of the rule baseline: functional capability extraction, role normalization, and non-functional constraint recovery break quickly under paraphrase.",
-            "- This makes the next step clear: replace the fixed lexical rules with a stronger dialogue-to-slots model while keeping the same evaluation pipeline.",
+            "- The noisy pilot exposes the real weakness of the rule baseline at both the frame and slot levels: capabilities, roles, and constraints break quickly under paraphrase.",
+            "- This makes the next step clear: compare a stronger LLM frame extractor against the same evaluation pipeline rather than changing the metrics.",
         ]
     )
     OUTPUT_MD.write_text("\n".join(lines) + "\n")

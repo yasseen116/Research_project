@@ -9,6 +9,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from frame_slot_utils import EXPECTED_FRAME_TURNS, derive_slots_from_frames, frame_consistency_score
+
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = ROOT / "raw_sources" / "manual_gold"
@@ -94,7 +96,7 @@ def validate_sample(path: Path, sample: dict) -> tuple[list[str], dict]:
         "non_functional_requirements": len(sample.get("requirements", {}).get("non_functional", [])),
     }
 
-    required_top = {"sample_id", "metadata", "source", "dialogue", "slots", "requirements"}
+    required_top = {"sample_id", "metadata", "source", "dialogue", "frames", "slots", "requirements"}
     missing_top = sorted(required_top - sample.keys())
     if missing_top:
         errors.append(f"{path.name}: missing top-level fields {missing_top}")
@@ -121,6 +123,35 @@ def validate_sample(path: Path, sample: dict) -> tuple[list[str], dict]:
     if not sample["source"].get("source_sentence_ids"):
         errors.append(f"{path.name}: source_sentence_ids must not be empty")
 
+    frames = sample["frames"]
+    if not frames:
+        errors.append(f"{path.name}: frames must not be empty")
+    frame_ids = set()
+    for frame in frames:
+        frame_id = frame.get("frame_id")
+        if not frame_id or frame_id in frame_ids:
+            errors.append(f"{path.name}: duplicate or missing frame_id")
+        frame_ids.add(frame_id)
+
+        kind = frame.get("kind")
+        if kind not in EXPECTED_FRAME_TURNS:
+            errors.append(f"{path.name}: invalid frame kind {kind}")
+            continue
+
+        turns = frame.get("evidence_turns", [])
+        if not turns:
+            errors.append(f"{path.name}: frame {frame_id} missing evidence_turns")
+            continue
+        for turn_id in turns:
+            if turn_id not in user_turn_ids:
+                errors.append(f"{path.name}: frame {frame_id} has invalid evidence turn {turn_id}")
+
+        if frame.get("status") != "confirmed":
+            errors.append(f"{path.name}: frame {frame_id} must have status=confirmed")
+
+    if frames and frame_consistency_score(frames) < 1.0:
+        errors.append(f"{path.name}: at least one frame uses an unexpected dialogue turn")
+
     slot_groups = sample["slots"]
     if not slot_groups["user_roles"]:
         errors.append(f"{path.name}: user_roles must not be empty")
@@ -144,6 +175,10 @@ def validate_sample(path: Path, sample: dict) -> tuple[list[str], dict]:
         for turn_id in turns:
             if turn_id not in user_turn_ids:
                 errors.append(f"{path.name}: invalid evidence turn {turn_id}")
+
+    derived_slots = derive_slots_from_frames(sample["frames"])
+    if json.dumps(derived_slots, sort_keys=True) != json.dumps(sample["slots"], sort_keys=True):
+        errors.append(f"{path.name}: slots are not a deterministic projection of frames")
 
     valid_refs = collect_slot_refs(sample)
     errors.extend(

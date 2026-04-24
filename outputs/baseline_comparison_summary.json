@@ -1,5 +1,7 @@
 {
   "b1_clean": {
+    "frame_f1": 1.0,
+    "frame_consistency": 1.0,
     "slot_f1": 1.0,
     "slot_functional_capability_f1": 1.0,
     "slot_security_f1": 1.0,
@@ -8,6 +10,8 @@
     "hallucination_rate": 0.0
   },
   "b1_noisy": {
+    "frame_f1": 0.23989898989898992,
+    "frame_consistency": 1.0,
     "slot_f1": 0.30128205128205127,
     "slot_functional_capability_f1": 0.09523809523809523,
     "slot_security_f1": 0.26666666666666666,
@@ -16,6 +20,8 @@
     "hallucination_rate": 0.5
   },
   "b2_clean": {
+    "frame_f1": 1.0,
+    "frame_consistency": 1.0,
     "slot_f1": 1.0,
     "slot_functional_capability_f1": 1.0,
     "slot_security_f1": 1.0,
@@ -24,6 +30,8 @@
     "hallucination_rate": 0.0
   },
   "b2_noisy": {
+    "frame_f1": 1.0,
+    "frame_consistency": 1.0,
     "slot_f1": 1.0,
     "slot_functional_capability_f1": 1.0,
     "slot_security_f1": 1.0,

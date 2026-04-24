@@ -25,8 +25,8 @@ The current pilot is intentionally small so that each stage can be inspected dir
   - Purpose: weak baseline that should fail under paraphrase.
 - **B2**: dialogue -> slots with normalized keyword/paraphrase rules
   - Purpose: stronger interpretable baseline for the fixed-flow chatbot setting.
-- **B3**: dialogue -> slots with an OpenAI-compatible API
-  - Purpose: optional real-model baseline that can target a free-tier endpoint or a local model server.
+- **G1**: dialogue -> Gemini frames -> derived slots -> deterministic requirements
+  - Purpose: main LLM system with a measurable intermediate representation.
 
 ## One-command run
 Run:
@@ -47,10 +47,10 @@ This executes:
 Optional API-based baseline:
 
 ```bash
-python3 scripts/run_b3_api_pipeline.py
+python3 scripts/run_g1_gemini_pipeline.py
 ```
 
-Setup details are in `docs/free_api_quickstart.md`.
+Setup details are in `docs/gemini_primary_quickstart.md`.
 
 ## What results to read first
 1. `outputs/pilot_flow_report.md`
@@ -68,4 +68,5 @@ Setup details are in `docs/free_api_quickstart.md`.
 ## Recommended current story
 - `B1` proves that literal rule matching is too weak for messy dialogue.
 - `B2` is the current best pilot system for the fixed six-question flow.
-- The next research step is to scale the gold set while keeping the same evaluation pipeline and reporting format.
+- `G1` is the main LLM path and should be compared against `B1` and `B2` with the same metrics.
+- The next research step after the pilot is to scale the gold set while keeping the same evaluation pipeline and reporting format.

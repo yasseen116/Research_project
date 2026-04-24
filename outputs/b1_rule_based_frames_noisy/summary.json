@@ -1,0 +1,17 @@
+[
+  {
+    "sample_id": "manual_001_amazing_lunch_indicator_noisy",
+    "path": "outputs/b1_rule_based_frames_noisy/manual_001_amazing_lunch_indicator_noisy.json",
+    "frame_count": 6
+  },
+  {
+    "sample_id": "manual_002_restaurant_menu_ordering_system_noisy",
+    "path": "outputs/b1_rule_based_frames_noisy/manual_002_restaurant_menu_ordering_system_noisy.json",
+    "frame_count": 7
+  },
+  {
+    "sample_id": "manual_003_keepass_password_safe_noisy",
+    "path": "outputs/b1_rule_based_frames_noisy/manual_003_keepass_password_safe_noisy.json",
+    "frame_count": 8
+  }
+]
