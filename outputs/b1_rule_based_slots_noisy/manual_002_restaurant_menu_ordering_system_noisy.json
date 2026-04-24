@@ -1,0 +1,58 @@
+{
+  "sample_id": "manual_002_restaurant_menu_ordering_system_noisy",
+  "method": "b1_rule_based_dialogue_to_slots_v1",
+  "slots": {
+    "system_type": {
+      "value": "in-restaurant ordering setup with table screens, staff tablets, and kitchen displays.",
+      "evidence_turns": [
+        2
+      ]
+    },
+    "user_roles": [
+      {
+        "value": "diners",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "floor staff",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "kitchen crew",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "managers",
+        "evidence_turns": [
+          4
+        ]
+      }
+    ],
+    "functional_capabilities": [
+      {
+        "actor": "diners",
+        "action": "guests should send orders and buzz staff, servers should take cash or card payments, the kitchen needs to mark dishes ready, and managers should handle refunds.",
+        "evidence_turns": [
+          6
+        ]
+      }
+    ],
+    "authentication": {
+      "required": true,
+      "methods": [
+        "tablet username/password login"
+      ],
+      "evidence_turns": [
+        8
+      ]
+    },
+    "performance_constraints": [],
+    "security_constraints": []
+  }
+}

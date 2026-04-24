@@ -1,0 +1,114 @@
+{
+  "sample_id": "manual_001_amazing_lunch_indicator",
+  "method": "b2_keyword_normalized_dialogue_to_slots_v1",
+  "slots": {
+    "system_type": {
+      "value": "restaurant discovery mobile application",
+      "evidence_turns": [
+        2
+      ]
+    },
+    "user_roles": [
+      {
+        "value": "users",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "restaurant owners",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "administrators",
+        "evidence_turns": [
+          4
+        ]
+      }
+    ],
+    "functional_capabilities": [
+      {
+        "actor": "users",
+        "action": "search for restaurants using multiple search options",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "users",
+        "action": "view restaurant results in map and list views",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "users",
+        "action": "open detailed restaurant information pages",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "users",
+        "action": "navigate to a selected restaurant using GPS",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "restaurant owners",
+        "action": "manage restaurant information through the web portal",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "administrators",
+        "action": "verify restaurant owners",
+        "evidence_turns": [
+          6
+        ]
+      }
+    ],
+    "authentication": {
+      "required": true,
+      "methods": [
+        "mobile app username/password login",
+        "web portal username/password login"
+      ],
+      "evidence_turns": [
+        8
+      ]
+    },
+    "performance_constraints": [
+      {
+        "text": "return search results within 2 seconds",
+        "evidence_turns": [
+          10
+        ]
+      },
+      {
+        "text": "inform the user if internet or GPS connectivity is lost",
+        "evidence_turns": [
+          10
+        ]
+      }
+    ],
+    "security_constraints": [
+      {
+        "text": "encrypt log-in communication messages",
+        "evidence_turns": [
+          12
+        ]
+      },
+      {
+        "text": "disable restaurant owner and administrator log-in for 30 minutes after three failed attempts",
+        "evidence_turns": [
+          12
+        ]
+      }
+    ]
+  }
+}

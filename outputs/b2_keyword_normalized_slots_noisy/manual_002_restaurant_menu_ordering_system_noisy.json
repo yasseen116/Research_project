@@ -1,0 +1,124 @@
+{
+  "sample_id": "manual_002_restaurant_menu_ordering_system_noisy",
+  "method": "b2_keyword_normalized_dialogue_to_slots_v1",
+  "slots": {
+    "system_type": {
+      "value": "restaurant menu and ordering system",
+      "evidence_turns": [
+        2
+      ]
+    },
+    "user_roles": [
+      {
+        "value": "customers",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "waiters",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "chefs",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "supervisors",
+        "evidence_turns": [
+          4
+        ]
+      }
+    ],
+    "functional_capabilities": [
+      {
+        "actor": "customers",
+        "action": "place orders through an engaged menu",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "customers",
+        "action": "call for waiter assistance",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "waiters",
+        "action": "process cash and bankcard payments",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "chefs",
+        "action": "mark order items as ready to be served",
+        "evidence_turns": [
+          6
+        ]
+      },
+      {
+        "actor": "supervisors",
+        "action": "issue refunds",
+        "evidence_turns": [
+          6
+        ]
+      }
+    ],
+    "authentication": {
+      "required": true,
+      "methods": [
+        "tablet username/password login"
+      ],
+      "evidence_turns": [
+        8
+      ]
+    },
+    "performance_constraints": [
+      {
+        "text": "support at least 200 concurrent device connections",
+        "evidence_turns": [
+          10
+        ]
+      },
+      {
+        "text": "preserve all active meals and orders without losing them",
+        "evidence_turns": [
+          10
+        ]
+      },
+      {
+        "text": "preserve all active customer payments without losing them",
+        "evidence_turns": [
+          10
+        ]
+      }
+    ],
+    "security_constraints": [
+      {
+        "text": "encrypt wireless communication using SSLv3 and WPA2-PSK",
+        "evidence_turns": [
+          12
+        ]
+      },
+      {
+        "text": "limit each waiter to one logged-in tablet at a time",
+        "evidence_turns": [
+          12
+        ]
+      },
+      {
+        "text": "not require customers to log in on surface computers",
+        "evidence_turns": [
+          8
+        ]
+      }
+    ]
+  }
+}

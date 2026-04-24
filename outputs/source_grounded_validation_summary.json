@@ -1,0 +1,37 @@
+{
+  "sample_count": 3,
+  "split_counts": {
+    "train": 1,
+    "dev": 1,
+    "test": 1
+  },
+  "domain_counts": {
+    "restaurant_discovery": 1,
+    "restaurant_ordering": 1,
+    "password_management": 1
+  },
+  "samples": [
+    {
+      "sample_id": "manual_001_amazing_lunch_indicator",
+      "split": "train",
+      "domain": "restaurant_discovery",
+      "functional_requirements": 7,
+      "non_functional_requirements": 4
+    },
+    {
+      "sample_id": "manual_002_restaurant_menu_ordering_system",
+      "split": "dev",
+      "domain": "restaurant_ordering",
+      "functional_requirements": 6,
+      "non_functional_requirements": 6
+    },
+    {
+      "sample_id": "manual_003_keepass_password_safe",
+      "split": "test",
+      "domain": "password_management",
+      "functional_requirements": 5,
+      "non_functional_requirements": 4
+    }
+  ],
+  "errors": []
+}

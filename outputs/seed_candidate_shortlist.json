@@ -1,0 +1,358 @@
+{
+  "selection_policy": {
+    "requires_raw_text": true,
+    "requires_curated_requirement_subset": true,
+    "scoring": "raw text + curated extracts + PURE-family preference"
+  },
+  "recommended_candidates": [
+    {
+      "document_id": "c05_nodes_portal_toolkit",
+      "folder_name": "C05. Nodes Portal Toolkit",
+      "title": "Nodes Portal Toolkit",
+      "family_prefix": "C",
+      "score": 10,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "has curated relevant text",
+        "has use cases",
+        "custom public source"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/SRSv0.3.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/UseCases.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p01_blit102",
+      "folder_name": "P01. Blit102",
+      "title": "Blit102",
+      "family_prefix": "P",
+      "score": 9,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "has markdown conversion",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/2010 - blit draft.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/FunctionalRequirements.md",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Raw.md",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p04_grid_3d",
+      "folder_name": "P04. Grid 3D",
+      "title": "Grid 3D",
+      "family_prefix": "P",
+      "score": 8,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/2005 - grid 3D.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p08_keepass_password_safe",
+      "folder_name": "P08. KeePass Password Safe",
+      "title": "KeePass Password Safe",
+      "family_prefix": "P",
+      "score": 8,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/2008 - keepass.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p10_multimahjong",
+      "folder_name": "P10. MultiMahjong",
+      "title": "MultiMahjong",
+      "family_prefix": "P",
+      "score": 8,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/1999 - multi-mahjong.html",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p12_pontis_5_0_bridge_management_system",
+      "folder_name": "P12. Pontis 5.0 Bridge Management System",
+      "title": "Pontis 5.0 Bridge Management System",
+      "family_prefix": "P",
+      "score": 8,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/2005 - pontis.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p14_publications_management_system",
+      "folder_name": "P14. Publications Management System",
+      "title": "Publications Management System",
+      "family_prefix": "P",
+      "score": 8,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/2008 - vub.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "c01_amazing_lunch_indicator",
+      "folder_name": "C01. Amazing Lunch Indicator",
+      "title": "Amazing Lunch Indicator",
+      "family_prefix": "C",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "custom public source"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/Amazing Lunch Indicator.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "c03_fdp_expanded_clearinghouse_pilot",
+      "folder_name": "C03. FDP Expanded Clearinghouse Pilot",
+      "title": "FDP Expanded Clearinghouse Pilot",
+      "family_prefix": "C",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "custom public source"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/FDP Expanded Clearinghouse Pilot.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "c07_restaurant_menu_ordering_system",
+      "folder_name": "C07. Restaurant Menu & Ordering System",
+      "title": "Restaurant Menu & Ordering System",
+      "family_prefix": "C",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has functional requirement extract",
+        "custom public source"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/FunctionalRequirements.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/Restaurant Menu & Ordering System.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p02_cs179g_abc_paint_project",
+      "folder_name": "P02. CS179G \u2013 ABC Paint Project",
+      "title": "CS179G \u2013 ABC Paint Project",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/2004 - colorcast.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p03_e_procurement",
+      "folder_name": "P03. E-procurement",
+      "title": "E-procurement",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/2004 - e-procurement.rtf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p06_integrated_library_system",
+      "folder_name": "P06. Integrated Library System",
+      "title": "Integrated Library System",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/2009 - library.doc",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p11_nenios",
+      "folder_name": "P11. Nenios",
+      "title": "Nenios",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/2005 - nenios.html",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p13_public_health_information_network",
+      "folder_name": "P13. Public Health Information Network",
+      "title": "Public Health Information Network",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/2005 - phin.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p16_tactical_control_system",
+      "folder_name": "P16. Tactical Control System",
+      "title": "Tactical Control System",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/1999 - tcs.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p17_tarrant_county_integrated_justice_information_system",
+      "folder_name": "P17. Tarrant County Integrated Justice Information System",
+      "title": "Tarrant County Integrated Justice Information System",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/2004 - ijis.doc",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "p18_x_38_fault_tolerant_system_services",
+      "folder_name": "P18. X-38 Fault Tolerant System Services",
+      "title": "X-38 Fault Tolerant System Services",
+      "family_prefix": "P",
+      "score": 7,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "PURE-family derivative"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/2000 - nasa x38.doc",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/_Source.txt"
+      ]
+    },
+    {
+      "document_id": "c06_online_national_election_voting",
+      "folder_name": "C06. Online National Election Voting",
+      "title": "Online National Election Voting",
+      "family_prefix": "C",
+      "score": 6,
+      "selection_reasons": [
+        "has raw text",
+        "has curated relevant text",
+        "custom public source"
+      ],
+      "paths": [
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/AllRelevant.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/Online National Election Voting.pdf",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/_Raw.txt",
+        "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/_Source.txt"
+      ]
+    }
+  ],
+  "candidate_count": 19
+}

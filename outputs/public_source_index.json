@@ -1,0 +1,1940 @@
+{
+  "datasets": {
+    "pure": {
+      "summary": {
+        "document_count": 82,
+        "xml_count": 18,
+        "source_file_count": 78,
+        "source_extensions": {
+          ".pdf": 62,
+          ".htm": 1,
+          ".html": 2,
+          ".doc": 12,
+          ".rtf": 1
+        }
+      },
+      "documents": [
+        {
+          "dataset_id": "pure",
+          "document_id": "0000_cctns",
+          "title": "0000 - cctns",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/0000 - cctns.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/0000 - cctns.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "0000_gamma_j",
+          "title": "0000 - gamma j",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/0000 - gamma j.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/0000 - gamma j.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "0000_inventory",
+          "title": "0000 - inventory",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/0000 - inventory.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "1995_gemini",
+          "title": "1995 - gemini",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1995 - gemini.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/1995 - gemini.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "1998_themas",
+          "title": "1998 - themas",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1998 - themas.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/1998 - themas.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "1999_dii",
+          "title": "1999 - dii",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1999 - dii.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/1999 - dii.htm",
+          "source_extension": ".htm"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "1999_multi_mahjong",
+          "title": "1999 - multi-mahjong",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/1999 - multi-mahjong.html",
+          "source_extension": ".html"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "1999_tcs",
+          "title": "1999 - tcs",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1999 - tcs.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/1999 - tcs.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2000_nasa_x38",
+          "title": "2000 - nasa x38",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2000 - nasa x38.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_beyond",
+          "title": "2001 - beyond",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - beyond.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_ctc_network",
+          "title": "2001 - ctc network",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - ctc network.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_elsfork",
+          "title": "2001 - elsfork",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - elsfork.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_esa",
+          "title": "2001 - esa",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - esa.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_hats",
+          "title": "2001 - hats",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - hats.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_libra",
+          "title": "2001 - libra",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - libra.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_npac",
+          "title": "2001 - npac",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - npac.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_space_fractions",
+          "title": "2001 - space fractions",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - space fractions.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2001_telescope",
+          "title": "2001 - telescope",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2001 - telescope.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2002_evla_back",
+          "title": "2002 - evla back",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2002 - evla back.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2002_evla_corr",
+          "title": "2002 - evla corr",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2002 - evla corr.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2002_sce_api",
+          "title": "2002 - sce api",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2002 - sce api.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2003_agentmom",
+          "title": "2003 - agentmom",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2003 - agentmom.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2003_pnnl",
+          "title": "2003 - pnnl",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2003 - pnnl.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2003_qheadache",
+          "title": "2003 - qheadache",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2003 - qheadache.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2003 - qheadache.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2003_tachonet",
+          "title": "2003 - tachonet",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2003 - tachonet.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_colorcast",
+          "title": "2004 - colorcast",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - colorcast.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_e_procurement",
+          "title": "2004 - e-procurement",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - e-procurement.rtf",
+          "source_extension": ".rtf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_grid_bgc",
+          "title": "2004 - grid bgc",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - grid bgc.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_ijis",
+          "title": "2004 - ijis",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - ijis.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_jse",
+          "title": "2004 - jse",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - jse.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_philips",
+          "title": "2004 - philips",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - philips.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_rlcs",
+          "title": "2004 - rlcs",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - rlcs.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_sprat",
+          "title": "2004 - sprat",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - sprat.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_watcom",
+          "title": "2004 - watcom",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - watcom.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2004_watcom_gui",
+          "title": "2004 - watcom gui",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2004 - watcom gui.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_clarus_high",
+          "title": "2005 - clarus high",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - clarus high.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_clarus_low",
+          "title": "2005 - clarus low",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - clarus low.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_grid_3d",
+          "title": "2005 - grid 3d",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - grid 3D.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_microcare",
+          "title": "2005 - microcare",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2005 - microcare.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - microcare.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_nenios",
+          "title": "2005 - nenios",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - nenios.html",
+          "source_extension": ".html"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_phin",
+          "title": "2005 - phin",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2005 - phin.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - phin.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_pontis",
+          "title": "2005 - pontis",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - pontis.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_triangle",
+          "title": "2005 - triangle",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - triangle.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2005_znix",
+          "title": "2005 - znix",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2005 - znix.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2006_eirene_sys_15",
+          "title": "2006 - eirene sys 15",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2006 - eirene sys 15.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2006 - eirene sys 15.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2006_stewards",
+          "title": "2006 - stewards",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2006 - stewards.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_central_trading_system",
+          "title": "2007 - central trading system",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - central trading system.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_e_store",
+          "title": "2007 - e-store",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - e-store.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_eirene_fun_7",
+          "title": "2007 - eirene fun 7",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - eirene fun 7.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_ertms",
+          "title": "2007 - ertms",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - ertms.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_get_real_0_2",
+          "title": "2007 - get real 0.2",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2007 - get real 0.2.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - get real 0.2.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_mdot",
+          "title": "2007 - mdot",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - mdot.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_nde",
+          "title": "2007 - nde",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - nde.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_nlm",
+          "title": "2007 - nlm",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - nlm.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_puget_sound",
+          "title": "2007 - puget sound",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - puget sound.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_water_use",
+          "title": "2007 - water use",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2007 - water use.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_eirene_fun_7_2",
+          "title": "2007-eirene_fun_7-2",
+          "has_xml": true,
+          "has_source_file": false,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2007-eirene_fun_7-2.xml",
+          "source_path": null,
+          "source_extension": null
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2007_ertms",
+          "title": "2007-ertms",
+          "has_xml": true,
+          "has_source_file": false,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2007-ertms.xml",
+          "source_path": null,
+          "source_extension": null
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2008_caiso",
+          "title": "2008 - caiso",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2008 - caiso.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2008_keepass",
+          "title": "2008 - keepass",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2008 - keepass.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2008 - keepass.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2008_peering",
+          "title": "2008 - peering",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2008 - peering.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2008 - peering.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2008_viper",
+          "title": "2008 - viper",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2008 - viper.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2008_virtual_ed",
+          "title": "2008 - virtual ed",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2008 - virtual ed.doc",
+          "source_extension": ".doc"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2008_vub",
+          "title": "2008 - vub",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2008 - vub.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_email",
+          "title": "2009 - email",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - email.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_gaia",
+          "title": "2009 - gaia",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - gaia.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_inventory_2_0",
+          "title": "2009 - inventory 2.0",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - inventory 2.0.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_library",
+          "title": "2009 - library",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - library.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_model_manager",
+          "title": "2009 - model manager",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - model manager.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_peazip",
+          "title": "2009 - peazip",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - peazip.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_peppol",
+          "title": "2009 - peppol",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - peppol.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_peppol_approved",
+          "title": "2009 - peppol approved",
+          "has_xml": true,
+          "has_source_file": false,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2009 - peppol approved.xml",
+          "source_path": null,
+          "source_extension": null
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_video_search",
+          "title": "2009 - video search",
+          "has_xml": true,
+          "has_source_file": true,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2009 - video search.xml",
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - video search.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2009_warc_iii",
+          "title": "2009 - warc iii",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2009 - warc III.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2010_blit_draft",
+          "title": "2010 - blit draft",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2010 - blit draft.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2010_fishing",
+          "title": "2010 - fishing",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2010 - fishing.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2010_gparted",
+          "title": "2010 - gparted",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2010 - gparted.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2010_home_1_3",
+          "title": "2010 - home 1.3",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2010 - home 1.3.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2010_mashboot",
+          "title": "2010 - mashboot",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2010 - mashboot.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2010_split_merge",
+          "title": "2010 - split merge",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2010 - split merge.pdf",
+          "source_extension": ".pdf"
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2010_blitdraft",
+          "title": "2010-blitdraft",
+          "has_xml": true,
+          "has_source_file": false,
+          "xml_path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2010-blitdraft.xml",
+          "source_path": null,
+          "source_extension": null
+        },
+        {
+          "dataset_id": "pure",
+          "document_id": "2011_opensg_0_1",
+          "title": "2011 - opensg 0.1",
+          "has_xml": false,
+          "has_source_file": true,
+          "xml_path": null,
+          "source_path": "raw_sources/public/pure/extracted/requirements/req/2011 - opensg 0.1.doc",
+          "source_extension": ".doc"
+        }
+      ]
+    },
+    "software_requirements_dataset": {
+      "summary": {
+        "document_count": 51,
+        "family_counts": {
+          "C": 7,
+          "H": 4,
+          "P": 18,
+          "g": 22
+        },
+        "with_raw_text": 48,
+        "with_functional_extract": 13,
+        "with_all_relevant": 10
+      },
+      "documents": [
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "c01_amazing_lunch_indicator",
+          "folder_name": "C01. Amazing Lunch Indicator",
+          "family_prefix": "C",
+          "title": "Amazing Lunch Indicator",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/Amazing Lunch Indicator.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "c02_eu_rent",
+          "folder_name": "C02. EU Rent",
+          "family_prefix": "C",
+          "title": "EU Rent",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C02. EU Rent/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C02. EU Rent/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "c03_fdp_expanded_clearinghouse_pilot",
+          "folder_name": "C03. FDP Expanded Clearinghouse Pilot",
+          "family_prefix": "C",
+          "title": "FDP Expanded Clearinghouse Pilot",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/FDP Expanded Clearinghouse Pilot.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "c04_library_system_rink",
+          "folder_name": "C04. Library System (Rink)",
+          "family_prefix": "C",
+          "title": "Library System (Rink)",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C04. Library System (Rink)/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C04. Library System (Rink)/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "c05_nodes_portal_toolkit",
+          "folder_name": "C05. Nodes Portal Toolkit",
+          "family_prefix": "C",
+          "title": "Nodes Portal Toolkit",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/SRSv0.3.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/UseCases.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": true,
+          "has_use_cases": true,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "c06_online_national_election_voting",
+          "folder_name": "C06. Online National Election Voting",
+          "family_prefix": "C",
+          "title": "Online National Election Voting",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/Online National Election Voting.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "c07_restaurant_menu_ordering_system",
+          "folder_name": "C07. Restaurant Menu & Ordering System",
+          "family_prefix": "C",
+          "title": "Restaurant Menu & Ordering System",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/Restaurant Menu & Ordering System.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "h01_cchit",
+          "folder_name": "H01. CCHIT",
+          "family_prefix": "H",
+          "title": "CCHIT",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H01. CCHIT/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H01. CCHIT/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "h02_cm1",
+          "folder_name": "H02. CM1",
+          "family_prefix": "H",
+          "title": "CM1",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H02. CM1/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H02. CM1/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "h03_infusionpump",
+          "folder_name": "H03. InfusionPump",
+          "family_prefix": "H",
+          "title": "InfusionPump",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H03. InfusionPump/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H03. InfusionPump/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "h04_waterloo",
+          "folder_name": "H04. Waterloo",
+          "family_prefix": "H",
+          "title": "Waterloo",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H04. Waterloo/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/H04. Waterloo/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p01_blit102",
+          "folder_name": "P01. Blit102",
+          "family_prefix": "P",
+          "title": "Blit102",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/2010 - blit draft.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/FunctionalRequirements.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Raw.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": true,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".md",
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p02_cs179g_abc_paint_project",
+          "folder_name": "P02. CS179G \u2013 ABC Paint Project",
+          "family_prefix": "P",
+          "title": "CS179G \u2013 ABC Paint Project",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/2004 - colorcast.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p03_e_procurement",
+          "folder_name": "P03. E-procurement",
+          "family_prefix": "P",
+          "title": "E-procurement",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/2004 - e-procurement.rtf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".rtf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p04_grid_3d",
+          "folder_name": "P04. Grid 3D",
+          "family_prefix": "P",
+          "title": "Grid 3D",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/2005 - grid 3D.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p05_home_1_3",
+          "folder_name": "P05. Home 1.3",
+          "family_prefix": "P",
+          "title": "Home 1.3",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/2010 - home 1.3.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/FunctionalRequirements.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/_Raw.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/_Source.txt"
+          ],
+          "has_raw_text": false,
+          "has_raw_markdown": true,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".md",
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p06_integrated_library_system",
+          "folder_name": "P06. Integrated Library System",
+          "family_prefix": "P",
+          "title": "Integrated Library System",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/2009 - library.doc",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".doc",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p07_inventory",
+          "folder_name": "P07. Inventory",
+          "family_prefix": "P",
+          "title": "Inventory",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/2009 - inventory 2.0.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/FunctionalRequirements.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/_Raw.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/_Source.txt"
+          ],
+          "has_raw_text": false,
+          "has_raw_markdown": true,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".md",
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p08_keepass_password_safe",
+          "folder_name": "P08. KeePass Password Safe",
+          "family_prefix": "P",
+          "title": "KeePass Password Safe",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/2008 - keepass.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p09_mashbot",
+          "folder_name": "P09. Mashbot",
+          "family_prefix": "P",
+          "title": "Mashbot",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/2010 - mashboot.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/FunctionalRequirements.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/_Raw.md",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/_Source.txt"
+          ],
+          "has_raw_text": false,
+          "has_raw_markdown": true,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".md",
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p10_multimahjong",
+          "folder_name": "P10. MultiMahjong",
+          "family_prefix": "P",
+          "title": "MultiMahjong",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/1999 - multi-mahjong.html",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".html",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p11_nenios",
+          "folder_name": "P11. Nenios",
+          "family_prefix": "P",
+          "title": "Nenios",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/2005 - nenios.html",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".html",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p12_pontis_5_0_bridge_management_system",
+          "folder_name": "P12. Pontis 5.0 Bridge Management System",
+          "family_prefix": "P",
+          "title": "Pontis 5.0 Bridge Management System",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/2005 - pontis.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p13_public_health_information_network",
+          "folder_name": "P13. Public Health Information Network",
+          "family_prefix": "P",
+          "title": "Public Health Information Network",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/2005 - phin.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p14_publications_management_system",
+          "folder_name": "P14. Publications Management System",
+          "family_prefix": "P",
+          "title": "Publications Management System",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/2008 - vub.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/FunctionalRequirements.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": true,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p15_puget_sound_enhancements",
+          "folder_name": "P15. Puget Sound Enhancements",
+          "family_prefix": "P",
+          "title": "Puget Sound Enhancements",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/2007 - puget sound.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/All.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p16_tactical_control_system",
+          "folder_name": "P16. Tactical Control System",
+          "family_prefix": "P",
+          "title": "Tactical Control System",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/1999 - tcs.pdf",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".pdf",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p17_tarrant_county_integrated_justice_information_system",
+          "folder_name": "P17. Tarrant County Integrated Justice Information System",
+          "family_prefix": "P",
+          "title": "Tarrant County Integrated Justice Information System",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/2004 - ijis.doc",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".doc",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "p18_x_38_fault_tolerant_system_services",
+          "folder_name": "P18. X-38 Fault Tolerant System Services",
+          "family_prefix": "P",
+          "title": "X-38 Fault Tolerant System Services",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/2000 - nasa x38.doc",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/AllRelevant.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": true,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".doc",
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g02_federalspending",
+          "folder_name": "g02-federalspending",
+          "family_prefix": "g",
+          "title": "g02-federalspending",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g02-federalspending/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g02-federalspending/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g03_loudoun",
+          "folder_name": "g03-loudoun",
+          "family_prefix": "g",
+          "title": "g03-loudoun",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g03-loudoun/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g03-loudoun/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g04_recycling",
+          "folder_name": "g04-recycling",
+          "family_prefix": "g",
+          "title": "g04-recycling",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g04-recycling/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g04-recycling/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g05_openspending",
+          "folder_name": "g05-openspending",
+          "family_prefix": "g",
+          "title": "g05-openspending",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g05-openspending/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g05-openspending/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g08_frictionless",
+          "folder_name": "g08-frictionless",
+          "family_prefix": "g",
+          "title": "g08-frictionless",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g08-frictionless/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g08-frictionless/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g10_scrumalliance",
+          "folder_name": "g10-scrumalliance",
+          "family_prefix": "g",
+          "title": "g10-scrumalliance",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g10-scrumalliance/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g10-scrumalliance/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g11_nsf",
+          "folder_name": "g11-nsf",
+          "family_prefix": "g",
+          "title": "g11-nsf",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g11-nsf/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g11-nsf/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g12_camperplus",
+          "folder_name": "g12-camperplus",
+          "family_prefix": "g",
+          "title": "g12-camperplus",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g12-camperplus/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g12-camperplus/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g13_planningpoker",
+          "folder_name": "g13-planningpoker",
+          "family_prefix": "g",
+          "title": "g13-planningpoker",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g13-planningpoker/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g13-planningpoker/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g14_datahub",
+          "folder_name": "g14-datahub",
+          "family_prefix": "g",
+          "title": "g14-datahub",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g14-datahub/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g14-datahub/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g16_mis",
+          "folder_name": "g16-mis",
+          "family_prefix": "g",
+          "title": "g16-mis",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g16-mis/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g16-mis/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g17_cask",
+          "folder_name": "g17-cask",
+          "family_prefix": "g",
+          "title": "g17-cask",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g17-cask/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g17-cask/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g18_neurohub",
+          "folder_name": "g18-neurohub",
+          "family_prefix": "g",
+          "title": "g18-neurohub",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g18-neurohub/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g18-neurohub/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g19_alfred",
+          "folder_name": "g19-alfred",
+          "family_prefix": "g",
+          "title": "g19-alfred",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g19-alfred/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g19-alfred/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g21_badcamp",
+          "folder_name": "g21-badcamp",
+          "family_prefix": "g",
+          "title": "g21-badcamp",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g21-badcamp/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g21-badcamp/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g22_rdadmp",
+          "folder_name": "g22-rdadmp",
+          "family_prefix": "g",
+          "title": "g22-rdadmp",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g22-rdadmp/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g22-rdadmp/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g23_archivesspace",
+          "folder_name": "g23-archivesspace",
+          "family_prefix": "g",
+          "title": "g23-archivesspace",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g23-archivesspace/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g23-archivesspace/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g24_unibath",
+          "folder_name": "g24-unibath",
+          "family_prefix": "g",
+          "title": "g24-unibath",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g24-unibath/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g24-unibath/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g25_duraspace",
+          "folder_name": "g25-duraspace",
+          "family_prefix": "g",
+          "title": "g25-duraspace",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g25-duraspace/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g25-duraspace/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g26_racdam",
+          "folder_name": "g26-racdam",
+          "family_prefix": "g",
+          "title": "g26-racdam",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g26-racdam/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g26-racdam/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g27_culrepo",
+          "folder_name": "g27-culrepo",
+          "family_prefix": "g",
+          "title": "g27-culrepo",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g27-culrepo/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g27-culrepo/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "dataset_id": "software_requirements_dataset",
+          "document_id": "g28_zooniverse",
+          "folder_name": "g28-zooniverse",
+          "family_prefix": "g",
+          "title": "g28-zooniverse",
+          "paths": [
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g28-zooniverse/_Raw.txt",
+            "raw_sources/public/software_requirements_dataset/extracted/Dataset/g28-zooniverse/_Source.txt"
+          ],
+          "has_raw_text": true,
+          "has_raw_markdown": false,
+          "has_functional_extract": false,
+          "has_all_relevant": false,
+          "has_use_cases": false,
+          "source_extensions": [
+            ".txt"
+          ]
+        }
+      ]
+    },
+    "promise_plus": {
+      "summary": {
+        "file_count": 2
+      },
+      "documents": [
+        {
+          "dataset_id": "promise_plus",
+          "document_id": "lista_dos_tipos_de_software_xlsx",
+          "title": "Lista dos tipos de software.xlsx",
+          "path": "raw_sources/public/promise_plus/Lista dos tipos de software.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 5704
+        },
+        {
+          "dataset_id": "promise_plus",
+          "document_id": "promise_arff",
+          "title": "Promise+.arff",
+          "path": "raw_sources/public/promise_plus/Promise+.arff",
+          "extension": ".arff",
+          "size_bytes": 559419
+        }
+      ]
+    },
+    "nice": {
+      "summary": {
+        "file_count": 1
+      },
+      "documents": [
+        {
+          "dataset_id": "nice",
+          "document_id": "promise_relabeled_nice_csv",
+          "title": "PROMISE-relabeled-NICE.csv",
+          "path": "raw_sources/public/nice/PROMISE-relabeled-NICE.csv",
+          "extension": ".csv",
+          "size_bytes": 95725
+        }
+      ]
+    }
+  }
+}

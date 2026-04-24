@@ -1,0 +1,1210 @@
+[
+  {
+    "dataset_id": "nice",
+    "file_count": 1,
+    "files": [
+      {
+        "path": "raw_sources/public/nice/PROMISE-relabeled-NICE.csv",
+        "size_bytes": 95725
+      }
+    ]
+  },
+  {
+    "dataset_id": "promise_plus",
+    "file_count": 2,
+    "files": [
+      {
+        "path": "raw_sources/public/promise_plus/Lista dos tipos de software.xlsx",
+        "size_bytes": 5704
+      },
+      {
+        "path": "raw_sources/public/promise_plus/Promise+.arff",
+        "size_bytes": 559419
+      }
+    ]
+  },
+  {
+    "dataset_id": "pure",
+    "file_count": 119,
+    "files": [
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/0000 - cctns.pdf",
+        "size_bytes": 350677
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/0000 - gamma j.pdf",
+        "size_bytes": 1292947
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/0000 - inventory.pdf",
+        "size_bytes": 837509
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/1995 - gemini.pdf",
+        "size_bytes": 5128485
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/1998 - themas.pdf",
+        "size_bytes": 68429
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/1999 - dii.htm",
+        "size_bytes": 52687
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/1999 - multi-mahjong.html",
+        "size_bytes": 93675
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/1999 - tcs.pdf",
+        "size_bytes": 588229
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2000 - nasa x38.doc",
+        "size_bytes": 922112
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - beyond.pdf",
+        "size_bytes": 604084
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - ctc network.pdf",
+        "size_bytes": 277703
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - elsfork.pdf",
+        "size_bytes": 950557
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - esa.pdf",
+        "size_bytes": 102821
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - hats.pdf",
+        "size_bytes": 377900
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - libra.doc",
+        "size_bytes": 92672
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - npac.doc",
+        "size_bytes": 2618368
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - space fractions.pdf",
+        "size_bytes": 103193
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2001 - telescope.pdf",
+        "size_bytes": 701945
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2002 - evla back.pdf",
+        "size_bytes": 247337
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2002 - evla corr.pdf",
+        "size_bytes": 57698
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2002 - sce api.pdf",
+        "size_bytes": 746386
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2003 - agentmom.pdf",
+        "size_bytes": 28814
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2003 - pnnl.pdf",
+        "size_bytes": 1668868
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2003 - qheadache.pdf",
+        "size_bytes": 72966
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2003 - tachonet.pdf",
+        "size_bytes": 366464
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - colorcast.pdf",
+        "size_bytes": 77602
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - e-procurement.rtf",
+        "size_bytes": 1197411
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - grid bgc.pdf",
+        "size_bytes": 124522
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - ijis.doc",
+        "size_bytes": 230400
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - jse.doc",
+        "size_bytes": 692224
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - philips.doc",
+        "size_bytes": 214528
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - rlcs.pdf",
+        "size_bytes": 598933
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - sprat.pdf",
+        "size_bytes": 362599
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - watcom gui.pdf",
+        "size_bytes": 828896
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2004 - watcom.pdf",
+        "size_bytes": 801604
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - clarus high.doc",
+        "size_bytes": 1021952
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - clarus low.pdf",
+        "size_bytes": 664919
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - grid 3D.pdf",
+        "size_bytes": 164056
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - microcare.pdf",
+        "size_bytes": 639507
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - nenios.html",
+        "size_bytes": 116136
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - phin.pdf",
+        "size_bytes": 134701
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - pontis.pdf",
+        "size_bytes": 2702800
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - triangle.pdf",
+        "size_bytes": 111158
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2005 - znix.pdf",
+        "size_bytes": 157806
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2006 - eirene sys 15.pdf",
+        "size_bytes": 889601
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2006 - stewards.pdf",
+        "size_bytes": 431631
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - central trading system.pdf",
+        "size_bytes": 186273
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - e-store.doc",
+        "size_bytes": 105472
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - eirene fun 7.pdf",
+        "size_bytes": 393868
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - ertms.pdf",
+        "size_bytes": 193210
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - get real 0.2.pdf",
+        "size_bytes": 39711
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - mdot.pdf",
+        "size_bytes": 515595
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - nde.pdf",
+        "size_bytes": 376618
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - nlm.doc",
+        "size_bytes": 3478016
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - puget sound.pdf",
+        "size_bytes": 686573
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2007 - water use.pdf",
+        "size_bytes": 201046
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2008 - caiso.pdf",
+        "size_bytes": 141978
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2008 - keepass.pdf",
+        "size_bytes": 118767
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2008 - peering.pdf",
+        "size_bytes": 1554816
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2008 - viper.doc",
+        "size_bytes": 1979904
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2008 - virtual ed.doc",
+        "size_bytes": 692736
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2008 - vub.pdf",
+        "size_bytes": 220333
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - email.pdf",
+        "size_bytes": 113292
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - gaia.pdf",
+        "size_bytes": 432080
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - inventory 2.0.pdf",
+        "size_bytes": 918592
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - library.doc",
+        "size_bytes": 100864
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - library.pdf",
+        "size_bytes": 120402
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - model manager.pdf",
+        "size_bytes": 51864
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - peazip.pdf",
+        "size_bytes": 789186
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - peppol.pdf",
+        "size_bytes": 2114776
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - video search.pdf",
+        "size_bytes": 80130
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2009 - warc III.pdf",
+        "size_bytes": 549220
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2010 - blit draft.pdf",
+        "size_bytes": 277514
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2010 - fishing.pdf",
+        "size_bytes": 427907
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2010 - gparted.pdf",
+        "size_bytes": 1424942
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2010 - home 1.3.pdf",
+        "size_bytes": 132705
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2010 - mashboot.pdf",
+        "size_bytes": 573961
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2010 - split merge.pdf",
+        "size_bytes": 2918527
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements/req/2011 - opensg 0.1.doc",
+        "size_bytes": 470528
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/0000 - cctns.xml",
+        "size_bytes": 47704
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/0000 - gamma j.xml",
+        "size_bytes": 86238
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1995 - gemini.xml",
+        "size_bytes": 166100
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1998 - themas.xml",
+        "size_bytes": 45364
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1999 - dii.xml",
+        "size_bytes": 39652
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/1999 - tcs.xml",
+        "size_bytes": 124557
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2003 - qheadache.xml",
+        "size_bytes": 20233
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2005 - microcare.xml",
+        "size_bytes": 46969
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2005 - phin.xml",
+        "size_bytes": 42478
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2006 - eirene sys 15.xml",
+        "size_bytes": 141448
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2007 - get real 0.2.xml",
+        "size_bytes": 17009
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2007-eirene_fun_7-2.xml",
+        "size_bytes": 212790
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2007-ertms.xml",
+        "size_bytes": 66187
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2008 - keepass.xml",
+        "size_bytes": 54533
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2008 - peering.xml",
+        "size_bytes": 45676
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2009 - peppol approved.xml",
+        "size_bytes": 328113
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2009 - video search.xml",
+        "size_bytes": 14784
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/XMLZIPFile/2010-blitdraft.xml",
+        "size_bytes": 13823
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/._XMLZIPFile",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._0000 - cctns.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._0000 - gamma j.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._1995 - gemini.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._1998 - themas.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._1999 - dii.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._1999 - tcs.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2003 - qheadache.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2005 - microcare.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2005 - phin.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2006 - eirene sys 15.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2007 - get real 0.2.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2007-eirene_fun_7-2.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2007-ertms.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2008 - keepass.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2008 - peering.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2009 - peppol approved.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2009 - video search.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/extracted/requirements-xml/__MACOSX/XMLZIPFile/._2010-blitdraft.xml",
+        "size_bytes": 216
+      },
+      {
+        "path": "raw_sources/public/pure/req_document.xsd",
+        "size_bytes": 5355
+      },
+      {
+        "path": "raw_sources/public/pure/requirements-xml.zip",
+        "size_bytes": 378737,
+        "zip_members": [
+          "XMLZIPFile/",
+          "XMLZIPFile/0000 - cctns.xml",
+          "__MACOSX/",
+          "__MACOSX/XMLZIPFile/",
+          "__MACOSX/XMLZIPFile/._0000 - cctns.xml",
+          "XMLZIPFile/0000 - gamma j.xml",
+          "__MACOSX/XMLZIPFile/._0000 - gamma j.xml",
+          "XMLZIPFile/1995 - gemini.xml",
+          "__MACOSX/XMLZIPFile/._1995 - gemini.xml",
+          "XMLZIPFile/1998 - themas.xml",
+          "__MACOSX/XMLZIPFile/._1998 - themas.xml",
+          "XMLZIPFile/1999 - dii.xml",
+          "__MACOSX/XMLZIPFile/._1999 - dii.xml",
+          "XMLZIPFile/1999 - tcs.xml",
+          "__MACOSX/XMLZIPFile/._1999 - tcs.xml",
+          "XMLZIPFile/2003 - qheadache.xml",
+          "__MACOSX/XMLZIPFile/._2003 - qheadache.xml",
+          "XMLZIPFile/2005 - microcare.xml",
+          "__MACOSX/XMLZIPFile/._2005 - microcare.xml",
+          "XMLZIPFile/2005 - phin.xml",
+          "__MACOSX/XMLZIPFile/._2005 - phin.xml",
+          "XMLZIPFile/2006 - eirene sys 15.xml",
+          "__MACOSX/XMLZIPFile/._2006 - eirene sys 15.xml",
+          "XMLZIPFile/2007 - get real 0.2.xml",
+          "__MACOSX/XMLZIPFile/._2007 - get real 0.2.xml"
+        ],
+        "zip_member_count": 40
+      },
+      {
+        "path": "raw_sources/public/pure/requirements.zip",
+        "size_bytes": 33623628,
+        "zip_members": [
+          "req/",
+          "req/0000 - cctns.pdf",
+          "req/0000 - gamma j.pdf",
+          "req/0000 - inventory.pdf",
+          "req/1995 - gemini.pdf",
+          "req/1998 - themas.pdf",
+          "req/1999 - dii.htm",
+          "req/1999 - multi-mahjong.html",
+          "req/1999 - tcs.pdf",
+          "req/2000 - nasa x38.doc",
+          "req/2001 - beyond.pdf",
+          "req/2001 - ctc network.pdf",
+          "req/2001 - elsfork.pdf",
+          "req/2001 - esa.pdf",
+          "req/2001 - hats.pdf",
+          "req/2001 - libra.doc",
+          "req/2001 - npac.doc",
+          "req/2001 - space fractions.pdf",
+          "req/2001 - telescope.pdf",
+          "req/2002 - evla back.pdf",
+          "req/2002 - evla corr.pdf",
+          "req/2002 - sce api.pdf",
+          "req/2003 - agentmom.pdf",
+          "req/2003 - pnnl.pdf",
+          "req/2003 - qheadache.pdf"
+        ],
+        "zip_member_count": 80
+      }
+    ]
+  },
+  {
+    "dataset_id": "software_requirements_dataset",
+    "file_count": 153,
+    "files": [
+      {
+        "path": "raw_sources/public/software_requirements_dataset/Dataset.zip",
+        "size_bytes": 11864852,
+        "zip_members": [
+          "C01. Amazing Lunch Indicator/",
+          "C01. Amazing Lunch Indicator/Amazing Lunch Indicator.pdf",
+          "C01. Amazing Lunch Indicator/FunctionalRequirements.txt",
+          "C01. Amazing Lunch Indicator/_Raw.txt",
+          "C01. Amazing Lunch Indicator/_Source.txt",
+          "C02. EU Rent/",
+          "C02. EU Rent/_Raw.txt",
+          "C02. EU Rent/_Source.txt",
+          "C03. FDP Expanded Clearinghouse Pilot/",
+          "C03. FDP Expanded Clearinghouse Pilot/FDP Expanded Clearinghouse Pilot.pdf",
+          "C03. FDP Expanded Clearinghouse Pilot/FunctionalRequirements.txt",
+          "C03. FDP Expanded Clearinghouse Pilot/_Raw.txt",
+          "C03. FDP Expanded Clearinghouse Pilot/_Source.txt",
+          "C04. Library System (Rink)/",
+          "C04. Library System (Rink)/_Raw.txt",
+          "C04. Library System (Rink)/_Source.txt",
+          "C05. Nodes Portal Toolkit/",
+          "C05. Nodes Portal Toolkit/AllRelevant.txt",
+          "C05. Nodes Portal Toolkit/FunctionalRequirements.txt",
+          "C05. Nodes Portal Toolkit/SRSv0.3.pdf",
+          "C05. Nodes Portal Toolkit/UseCases.txt",
+          "C05. Nodes Portal Toolkit/_Raw.txt",
+          "C05. Nodes Portal Toolkit/_Source.txt",
+          "C06. Online National Election Voting/",
+          "C06. Online National Election Voting/AllRelevant.txt"
+        ],
+        "zip_member_count": 203
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/Amazing Lunch Indicator.pdf",
+        "size_bytes": 2370740
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/FunctionalRequirements.txt",
+        "size_bytes": 20161
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/_Raw.txt",
+        "size_bytes": 95127
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C01. Amazing Lunch Indicator/_Source.txt",
+        "size_bytes": 112
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C02. EU Rent/_Raw.txt",
+        "size_bytes": 2679
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C02. EU Rent/_Source.txt",
+        "size_bytes": 69
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/FDP Expanded Clearinghouse Pilot.pdf",
+        "size_bytes": 712987
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/FunctionalRequirements.txt",
+        "size_bytes": 3031
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/_Raw.txt",
+        "size_bytes": 38680
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C03. FDP Expanded Clearinghouse Pilot/_Source.txt",
+        "size_bytes": 109
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C04. Library System (Rink)/_Raw.txt",
+        "size_bytes": 10357
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C04. Library System (Rink)/_Source.txt",
+        "size_bytes": 104
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/AllRelevant.txt",
+        "size_bytes": 13702
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/FunctionalRequirements.txt",
+        "size_bytes": 10067
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/SRSv0.3.pdf",
+        "size_bytes": 788634
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/UseCases.txt",
+        "size_bytes": 3631
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/_Raw.txt",
+        "size_bytes": 98787
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C05. Nodes Portal Toolkit/_Source.txt",
+        "size_bytes": 146
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/AllRelevant.txt",
+        "size_bytes": 21938
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/Online National Election Voting.pdf",
+        "size_bytes": 1646646
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/_Raw.txt",
+        "size_bytes": 51746
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C06. Online National Election Voting/_Source.txt",
+        "size_bytes": 91
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/FunctionalRequirements.txt",
+        "size_bytes": 5062
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/Restaurant Menu & Ordering System.pdf",
+        "size_bytes": 934343
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/_Raw.txt",
+        "size_bytes": 80598
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/C07. Restaurant Menu & Ordering System/_Source.txt",
+        "size_bytes": 128
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H01. CCHIT/_Raw.txt",
+        "size_bytes": 15379
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H01. CCHIT/_Source.txt",
+        "size_bytes": 38
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H02. CM1/_Raw.txt",
+        "size_bytes": 3272
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H02. CM1/_Source.txt",
+        "size_bytes": 38
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H03. InfusionPump/_Raw.txt",
+        "size_bytes": 18920
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H03. InfusionPump/_Source.txt",
+        "size_bytes": 38
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H04. Waterloo/_Raw.txt",
+        "size_bytes": 73468
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/H04. Waterloo/_Source.txt",
+        "size_bytes": 38
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/2010 - blit draft.pdf",
+        "size_bytes": 277514
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/FunctionalRequirements.md",
+        "size_bytes": 3318
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Raw.md",
+        "size_bytes": 13086
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Raw.txt",
+        "size_bytes": 9183
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P01. Blit102/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/2004 - colorcast.pdf",
+        "size_bytes": 77602
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/AllRelevant.txt",
+        "size_bytes": 7807
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/_Raw.txt",
+        "size_bytes": 30440
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P02. CS179G \u2013 ABC Paint Project/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/2004 - e-procurement.rtf",
+        "size_bytes": 1197411
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/AllRelevant.txt",
+        "size_bytes": 10513
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/_Raw.txt",
+        "size_bytes": 49454
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P03. E-procurement/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/2005 - grid 3D.pdf",
+        "size_bytes": 164056
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/FunctionalRequirements.txt",
+        "size_bytes": 1115
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/_Raw.txt",
+        "size_bytes": 18149
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P04. Grid 3D/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/2010 - home 1.3.pdf",
+        "size_bytes": 132705
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/FunctionalRequirements.md",
+        "size_bytes": 6943
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/_Raw.md",
+        "size_bytes": 26371
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P05. Home 1.3/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/2009 - library.doc",
+        "size_bytes": 100864
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/AllRelevant.txt",
+        "size_bytes": 13298
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/_Raw.txt",
+        "size_bytes": 34945
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P06. Integrated Library System/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/2009 - inventory 2.0.pdf",
+        "size_bytes": 918592
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/FunctionalRequirements.md",
+        "size_bytes": 30062
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/FunctionalRequirements.txt",
+        "size_bytes": 51538
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/_Raw.md",
+        "size_bytes": 105562
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P07. Inventory/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/2008 - keepass.pdf",
+        "size_bytes": 118767
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/FunctionalRequirements.txt",
+        "size_bytes": 2708
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/_Raw.txt",
+        "size_bytes": 46048
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P08. KeePass Password Safe/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/2010 - mashboot.pdf",
+        "size_bytes": 573961
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/FunctionalRequirements.md",
+        "size_bytes": 3808
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/_Raw.md",
+        "size_bytes": 20982
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P09. Mashbot/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/1999 - multi-mahjong.html",
+        "size_bytes": 93675
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/FunctionalRequirements.txt",
+        "size_bytes": 10521
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/_Raw.txt",
+        "size_bytes": 40230
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P10. MultiMahjong/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/2005 - nenios.html",
+        "size_bytes": 116136
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/AllRelevant.txt",
+        "size_bytes": 5962
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/_Raw.txt",
+        "size_bytes": 18835
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P11. Nenios/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/2005 - pontis.pdf",
+        "size_bytes": 2702800
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/FunctionalRequirements.txt",
+        "size_bytes": 28883
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/_Raw.txt",
+        "size_bytes": 127482
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P12. Pontis 5.0 Bridge Management System/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/2005 - phin.pdf",
+        "size_bytes": 134701
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/AllRelevant.txt",
+        "size_bytes": 20859
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/_Raw.txt",
+        "size_bytes": 40717
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P13. Public Health Information Network/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/2008 - vub.pdf",
+        "size_bytes": 220333
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/FunctionalRequirements.txt",
+        "size_bytes": 16148
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/_Raw.txt",
+        "size_bytes": 51219
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P14. Publications Management System/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/2007 - puget sound.pdf",
+        "size_bytes": 686573
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/All.txt",
+        "size_bytes": 25333
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/_Raw.txt",
+        "size_bytes": 27502
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P15. Puget Sound Enhancements/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/1999 - tcs.pdf",
+        "size_bytes": 588229
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/AllRelevant.txt",
+        "size_bytes": 39223
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/_Raw.txt",
+        "size_bytes": 259643
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P16. Tactical Control System/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/2004 - ijis.doc",
+        "size_bytes": 230400
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/AllRelevant.txt",
+        "size_bytes": 12593
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/_Raw.txt",
+        "size_bytes": 32307
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P17. Tarrant County Integrated Justice Information System/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/2000 - nasa x38.doc",
+        "size_bytes": 922112
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/AllRelevant.txt",
+        "size_bytes": 34757
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/_Raw.txt",
+        "size_bytes": 138654
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/P18. X-38 Fault Tolerant System Services/_Source.txt",
+        "size_bytes": 46
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g02-federalspending/_Raw.txt",
+        "size_bytes": 11233
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g02-federalspending/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g03-loudoun/_Raw.txt",
+        "size_bytes": 9156
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g03-loudoun/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g04-recycling/_Raw.txt",
+        "size_bytes": 6669
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g04-recycling/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g05-openspending/_Raw.txt",
+        "size_bytes": 8718
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g05-openspending/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g08-frictionless/_Raw.txt",
+        "size_bytes": 9693
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g08-frictionless/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g10-scrumalliance/_Raw.txt",
+        "size_bytes": 13032
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g10-scrumalliance/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g11-nsf/_Raw.txt",
+        "size_bytes": 9552
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g11-nsf/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g12-camperplus/_Raw.txt",
+        "size_bytes": 7193
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g12-camperplus/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g13-planningpoker/_Raw.txt",
+        "size_bytes": 7580
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g13-planningpoker/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g14-datahub/_Raw.txt",
+        "size_bytes": 9441
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g14-datahub/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g16-mis/_Raw.txt",
+        "size_bytes": 9001
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g16-mis/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g17-cask/_Raw.txt",
+        "size_bytes": 8794
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g17-cask/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g18-neurohub/_Raw.txt",
+        "size_bytes": 11959
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g18-neurohub/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g19-alfred/_Raw.txt",
+        "size_bytes": 13272
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g19-alfred/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g21-badcamp/_Raw.txt",
+        "size_bytes": 10263
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g21-badcamp/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g22-rdadmp/_Raw.txt",
+        "size_bytes": 12210
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g22-rdadmp/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g23-archivesspace/_Raw.txt",
+        "size_bytes": 4987
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g23-archivesspace/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g24-unibath/_Raw.txt",
+        "size_bytes": 8270
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g24-unibath/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g25-duraspace/_Raw.txt",
+        "size_bytes": 11611
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g25-duraspace/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g26-racdam/_Raw.txt",
+        "size_bytes": 11779
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g26-racdam/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g27-culrepo/_Raw.txt",
+        "size_bytes": 19389
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g27-culrepo/_Source.txt",
+        "size_bytes": 37
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g28-zooniverse/_Raw.txt",
+        "size_bytes": 6240
+      },
+      {
+        "path": "raw_sources/public/software_requirements_dataset/extracted/Dataset/g28-zooniverse/_Source.txt",
+        "size_bytes": 37
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "sample_id": "manual_001_amazing_lunch_indicator_noisy",
+    "path": "outputs/b2_keyword_normalized_slots_noisy/manual_001_amazing_lunch_indicator_noisy.json",
+    "user_roles": 3,
+    "functional_capabilities": 6,
+    "performance_constraints": 2,
+    "security_constraints": 2
+  },
+  {
+    "sample_id": "manual_002_restaurant_menu_ordering_system_noisy",
+    "path": "outputs/b2_keyword_normalized_slots_noisy/manual_002_restaurant_menu_ordering_system_noisy.json",
+    "user_roles": 4,
+    "functional_capabilities": 5,
+    "performance_constraints": 3,
+    "security_constraints": 3
+  },
+  {
+    "sample_id": "manual_003_keepass_password_safe_noisy",
+    "path": "outputs/b2_keyword_normalized_slots_noisy/manual_003_keepass_password_safe_noisy.json",
+    "user_roles": 2,
+    "functional_capabilities": 4,
+    "performance_constraints": 1,
+    "security_constraints": 3
+  }
+]

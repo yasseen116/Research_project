@@ -1,0 +1,26 @@
+[
+  {
+    "sample_id": "manual_001_amazing_lunch_indicator",
+    "path": "outputs/b1_rule_based_slots/manual_001_amazing_lunch_indicator.json",
+    "user_roles": 3,
+    "functional_capabilities": 6,
+    "performance_constraints": 2,
+    "security_constraints": 2
+  },
+  {
+    "sample_id": "manual_002_restaurant_menu_ordering_system",
+    "path": "outputs/b1_rule_based_slots/manual_002_restaurant_menu_ordering_system.json",
+    "user_roles": 4,
+    "functional_capabilities": 5,
+    "performance_constraints": 3,
+    "security_constraints": 3
+  },
+  {
+    "sample_id": "manual_003_keepass_password_safe",
+    "path": "outputs/b1_rule_based_slots/manual_003_keepass_password_safe.json",
+    "user_roles": 2,
+    "functional_capabilities": 4,
+    "performance_constraints": 1,
+    "security_constraints": 3
+  }
+]

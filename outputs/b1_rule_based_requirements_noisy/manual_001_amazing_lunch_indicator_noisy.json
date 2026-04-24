@@ -1,0 +1,23 @@
+{
+  "sample_id": "manual_001_amazing_lunch_indicator_noisy",
+  "method": "b1_rule_based_dialogue_to_slots_v1__template_generation_v1",
+  "requirements": {
+    "functional": [
+      {
+        "id": "FR1",
+        "text": "The system shall support authentication using web portal username/password login.",
+        "source_slots": [
+          "authentication"
+        ]
+      },
+      {
+        "id": "FR2",
+        "text": "The system shall allow users to view restaurant results in map and list views.",
+        "source_slots": [
+          "functional_capabilities[0]"
+        ]
+      }
+    ],
+    "non_functional": []
+  }
+}

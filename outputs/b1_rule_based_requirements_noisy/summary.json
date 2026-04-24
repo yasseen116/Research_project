@@ -1,0 +1,20 @@
+[
+  {
+    "sample_id": "manual_001_amazing_lunch_indicator_noisy",
+    "path": "outputs/b1_rule_based_requirements_noisy/manual_001_amazing_lunch_indicator_noisy.json",
+    "functional_requirements": 2,
+    "non_functional_requirements": 0
+  },
+  {
+    "sample_id": "manual_002_restaurant_menu_ordering_system_noisy",
+    "path": "outputs/b1_rule_based_requirements_noisy/manual_002_restaurant_menu_ordering_system_noisy.json",
+    "functional_requirements": 2,
+    "non_functional_requirements": 0
+  },
+  {
+    "sample_id": "manual_003_keepass_password_safe_noisy",
+    "path": "outputs/b1_rule_based_requirements_noisy/manual_003_keepass_password_safe_noisy.json",
+    "functional_requirements": 2,
+    "non_functional_requirements": 2
+  }
+]

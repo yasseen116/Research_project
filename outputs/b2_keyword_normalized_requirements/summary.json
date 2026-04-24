@@ -1,0 +1,20 @@
+[
+  {
+    "sample_id": "manual_001_amazing_lunch_indicator",
+    "path": "outputs/b2_keyword_normalized_requirements/manual_001_amazing_lunch_indicator.json",
+    "functional_requirements": 7,
+    "non_functional_requirements": 4
+  },
+  {
+    "sample_id": "manual_002_restaurant_menu_ordering_system",
+    "path": "outputs/b2_keyword_normalized_requirements/manual_002_restaurant_menu_ordering_system.json",
+    "functional_requirements": 6,
+    "non_functional_requirements": 6
+  },
+  {
+    "sample_id": "manual_003_keepass_password_safe",
+    "path": "outputs/b2_keyword_normalized_requirements/manual_003_keepass_password_safe.json",
+    "functional_requirements": 5,
+    "non_functional_requirements": 4
+  }
+]

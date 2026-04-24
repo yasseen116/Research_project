@@ -1,0 +1,107 @@
+{
+  "sample_count": 3,
+  "aggregate": {
+    "functional_f1_macro": 1.0,
+    "non_functional_f1_macro": 1.0,
+    "overall_f1_macro": 1.0,
+    "coverage_macro": 1.0,
+    "hallucination_rate_macro": 0.0,
+    "source_slot_coverage_macro": 1.0,
+    "compliance_macro": 1.0
+  },
+  "per_sample": [
+    {
+      "sample_id": "manual_001_amazing_lunch_indicator",
+      "functional": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0
+      },
+      "non_functional": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 11,
+        "fp": 0,
+        "fn": 0,
+        "coverage": 1.0,
+        "hallucination_rate": 0.0
+      },
+      "source_slot_coverage": 1.0,
+      "compliance": 1.0
+    },
+    {
+      "sample_id": "manual_002_restaurant_menu_ordering_system",
+      "functional": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0
+      },
+      "non_functional": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0
+      },
+      "overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "coverage": 1.0,
+        "hallucination_rate": 0.0
+      },
+      "source_slot_coverage": 1.0,
+      "compliance": 1.0
+    },
+    {
+      "sample_id": "manual_003_keepass_password_safe",
+      "functional": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "non_functional": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "coverage": 1.0,
+        "hallucination_rate": 0.0
+      },
+      "source_slot_coverage": 1.0,
+      "compliance": 1.0
+    }
+  ]
+}

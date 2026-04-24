@@ -1,0 +1,52 @@
+{
+  "sample_id": "manual_001_amazing_lunch_indicator_noisy",
+  "method": "b1_rule_based_dialogue_to_slots_v1",
+  "slots": {
+    "system_type": {
+      "value": "basically a phone app for finding food spots near me and checking what each place offers.",
+      "evidence_turns": [
+        2
+      ]
+    },
+    "user_roles": [
+      {
+        "value": "regular app users",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "restaurant people using the portal",
+        "evidence_turns": [
+          4
+        ]
+      },
+      {
+        "value": "whoever manages the whole thing",
+        "evidence_turns": [
+          4
+        ]
+      }
+    ],
+    "functional_capabilities": [
+      {
+        "actor": "users",
+        "action": "view restaurant results in map and list views",
+        "evidence_turns": [
+          6
+        ]
+      }
+    ],
+    "authentication": {
+      "required": true,
+      "methods": [
+        "web portal username/password login"
+      ],
+      "evidence_turns": [
+        8
+      ]
+    },
+    "performance_constraints": [],
+    "security_constraints": []
+  }
+}

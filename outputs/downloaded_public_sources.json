@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pure",
+    "title": "PURE: a Dataset of Public Requirements Documents",
+    "doi": "10.5281/zenodo.7118517",
+    "record_url": "https://zenodo.org/records/7118517",
+    "files": [
+      {
+        "name": "req_document.xsd",
+        "path": "raw_sources/public/pure/req_document.xsd",
+        "md5": "f44c255db9414afb7c39265697abcb33",
+        "size_bytes": 5355,
+        "extracted_to": null
+      },
+      {
+        "name": "requirements-xml.zip",
+        "path": "raw_sources/public/pure/requirements-xml.zip",
+        "md5": "c81235c40f88a2c947ae66e0eddad585",
+        "size_bytes": 378737,
+        "extracted_to": "raw_sources/public/pure/extracted/requirements-xml"
+      },
+      {
+        "name": "requirements.zip",
+        "path": "raw_sources/public/pure/requirements.zip",
+        "md5": "bc319fe28619f6290badff328ca159dd",
+        "size_bytes": 33623628,
+        "extracted_to": "raw_sources/public/pure/extracted/requirements"
+      }
+    ]
+  },
+  {
+    "id": "software_requirements_dataset",
+    "title": "Software Requirements Data Set",
+    "doi": "10.5281/zenodo.7897601",
+    "record_url": "https://zenodo.org/records/7897601",
+    "files": [
+      {
+        "name": "Dataset.zip",
+        "path": "raw_sources/public/software_requirements_dataset/Dataset.zip",
+        "md5": "89f141ad7376afdbec1cf6db858f10c4",
+        "size_bytes": 11864852,
+        "extracted_to": "raw_sources/public/software_requirements_dataset/extracted/Dataset"
+      }
+    ]
+  },
+  {
+    "id": "promise_plus",
+    "title": "Promise+: A dataset of labeled software requirements",
+    "doi": "10.5281/zenodo.12805484",
+    "record_url": "https://zenodo.org/records/12805484",
+    "files": [
+      {
+        "name": "Promise+.arff",
+        "path": "raw_sources/public/promise_plus/Promise+.arff",
+        "md5": "f9227908ff871ccf9a30f53aa61c921a",
+        "size_bytes": 559419,
+        "extracted_to": null
+      },
+      {
+        "name": "Lista dos tipos de software.xlsx",
+        "path": "raw_sources/public/promise_plus/Lista dos tipos de software.xlsx",
+        "md5": "6d5b2062b3b33f150d6e1bf2d7383a76",
+        "size_bytes": 5704,
+        "extracted_to": null
+      }
+    ]
+  },
+  {
+    "id": "nice",
+    "title": "NICE: Non-Functional Requirements Identification, Classification, and Explanation Using Small Language Models",
+    "doi": "10.5281/zenodo.14590935",
+    "record_url": "https://zenodo.org/records/14590935",
+    "files": [
+      {
+        "name": "PROMISE-relabeled-NICE.csv",
+        "path": "raw_sources/public/nice/PROMISE-relabeled-NICE.csv",
+        "md5": "977399184e55483b3c971b7094a53279",
+        "size_bytes": 95725,
+        "extracted_to": null
+      }
+    ]
+  }
+]
